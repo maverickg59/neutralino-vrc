@@ -1,0 +1,58 @@
+{
+  "$schema": "https://raw.githubusercontent.com/neutralinojs/neutralinojs/main/schemas/neutralino.config.schema.json",
+  "applicationId": "js.neutralino.five9cyber.template",
+  "version": "1.0.0",
+  "defaultMode": "window",
+  "documentRoot": "/app/dist/",
+  "url": "/",
+  "enableServer": true,
+  "enableNativeAPI": true,
+  "singlePageServe": true,
+  "tokenSecurity": "one-time",
+  "nativeAllowList": [
+    "app.*",
+    "os.*",
+    "filesystem.*",
+    "window.*",
+    "storage.*",
+    "debug.log"
+  ],
+  "logging": {
+    "enabled": true,
+    "writeToLogFile": true
+  },
+  "modes": {
+    "window": {
+      "title": "Five9 Cyber Template",
+      "width": 1000,
+      "height": 800,
+      "minWidth": 800,
+      "minHeight": 600,
+      "center": true,
+      "fullScreen": false,
+      "alwaysOnTop": false,
+      "icon": "/app/public/neutralino.png",
+      "enableInspector": true,
+      "borderless": false,
+      "maximize": false,
+      "hidden": false,
+      "resizable": true,
+      "exitProcessOnClose": false
+    }
+  },
+  "cli": {
+    "binaryName": "application",
+    "resourcesPath": "/app/dist/",
+    "extensionsPath": "/extensions/",
+    "binaryVersion": "5.4.0",
+    "clientVersion": "5.4.0",
+    "frontendLibrary": {
+      "projectPath": "/app/",
+      "patchFile": "/app/index.html",
+      "devUrl": "http://localhost:5173",
+      "buildCommand": "npm run build",
+      "initCommand": "npm install",
+      "devCommand": "npm run dev"
+    }
+  }
+}

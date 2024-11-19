@@ -1,0 +1,13 @@
+{
+  "name": "five9cyber-neutralino-template",
+  "version": "1.0.0",
+  "description": "A template for Neutralino.js app running Vite with React and Chakra UI.",
+  "main": "index.js",
+  "scripts": {
+    "setup": "bash scripts/init.sh",
+    "dev": "neu run -- --window-enable-inspector",
+    "build": "neu build"
+  },
+  "author": "Chris White",
+  "license": "ISC"
+}
