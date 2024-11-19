@@ -1,6 +1,6 @@
 # Neutralino Vite React Template
 
-This **Neutralino.js** template employes **Vite**, **React**, and **Chakra UI**. It provides a lightweight, cross-platform desktop application setup using modern web development tools.
+This **Neutralino.js** template employes **Vite**, **TypeScript**, **React**, and **Chakra UI**. It provides a lightweight, cross-platform desktop application setup using modern web development tools.
 
 ## Features
 
