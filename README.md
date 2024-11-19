@@ -34,9 +34,7 @@ This **Neutralino.js** template employes **Vite**, **TypeScript**, **React**, an
 
 ## Requirements
 
-- Node.js
 - Neutralino CLI (`neu`)
-- add other requirements
 
 ---
 
